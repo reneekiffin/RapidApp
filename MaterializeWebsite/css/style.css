@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Trajan';
+    src: url('../src/goudytrajan-regular-trial-webfont.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Rotters';
+    src: url("../src/Rotters.otf") format("opentype");
+}
+
+
+nav ul li a {
+  color:black;
+}
+nav ul li a:hover{
+  color:white;
+}
+#booknow{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.btn-large{
+  color: #8d6e63  !important;
+  background-color:#efebe9 !important;
+  border-color: #d7ccc8 !important;
+  border-style: solid !important;
+  border-width: thin !important;
+
+}
+
+body{
+  font-weight: lighter;
+}
+
+p,a{
+}
+
+
+h1{
+  font-family: 'Rotters' !important;
+}
+
+input[type="submit"]{
+  color:#efebe9  !important;
+  background-color: #8d6e63 !important;
+  border-color: #d7ccc8 !important;
+  border-style: solid !important;
+  border-width: thin !important;
+  border-style: none !important;
+
+
+}
