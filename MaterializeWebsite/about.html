@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <link rel="stylesheet" href="../css/style.css">
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -13,65 +14,68 @@
 
     <body>
 
+<!--NAVIGATION-->
 
+      <div class="navbar-fixed">
       <nav>
-   <div class="nav-wrapper">
-     <a href="#" class="brand-logo">Logo</a>
-     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-     <ul class="right hide-on-med-and-down">
-       <li><a href="sass.html">About</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
-       <li><a href="mobile.html">Mobile</a></li>
-     </ul>
-   </div>
- </nav>
+         <div class="brown lighten-5 nav-wrapper">
+           <a href="index.html" id="logo" class="black-text brand-logo"><img src="/img/logo.png" alt="Jane Doe Photogrphy Logo" height="60px"></a>
+           <a href="#" data-target="mobile-demo" class="black-text sidenav-trigger"><i class="material-icons">menu</i></a>
+           <ul class="black-text right hide-on-med-and-down">
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="gallery.html">GALLERY</a></li>
+             <li><a href="contact.html">CONTACT</a></li>
 
- <ul class="sidenav" id="mobile-demo">
-   <li><a href="sass.html">Sass</a></li>
-   <li><a href="badges.html">Components</a></li>
-   <li><a href="collapsible.html">Javascript</a></li>
-   <li><a href="mobile.html">Mobile</a></li>
+           </ul>
+        </div>
+      </nav>
+      </div>
+
+ <ul class="black-text sidenav" id="mobile-demo">
+   <li><a href="about.html">ABOUT</a></li>
+   <li><a href="gallery.html">GALLERY</a></li>
+   <li><a href="contact.html">CONTACT</a></li>
  </ul>
 
 
 
 
 
-
-
-
-  <div class="carousel carousel-slider">
-      <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
-      <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-      <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-      <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
-    </div>
-
-
-
-
-
-  <div class="row">
-<div class="col l12 s12">Renee Kiffin</div>
-
-</div>
-
-
-
+<!--ABOUT ME-->
         <div class="row">
-     <div class="col l9 s12">Renee Kiffin</div>
-      <div class="col l3 s12">SUBSCRIBE</div>
-   </div>
+          <div class="col l1 s0"></div>
+          <div class="col l4 s12">
+          <div class="card">
+            <div class="card-image">
+            <img src="https://bit.ly/2WPYqDA">
+            </div>
+          </div>
+        </div>
+
+        <div class="col l1 s0">
+        </div>
+
+        <div class="col l4 s13">
+        <div class="card large brown white-text lighten-2" >
+          <div class="card-content">
+            <span class="card-title"><h1>About Me</h1></span>
+            <p> Hi, I'm Jane! I grew up in a little town called Cantelope. I went to Fairytale Univeristy and graduated with my B.A. in Fine Arts. I got a gig as a wedding photographer after graduating and fell in love capturing people's special moments at weddings. Since then I have been working as a professional wedding photographer for 5 years. </p>
+          </div>
+        </div>
+        </div>
+        <div class="col l1 hide-on-med-and-down">
+          <div class="card-image large"><img height="700px"src="../img/element2.png"></div>
+
+        </div>
+
+           </div>
 
 
-   <div class="card-panel light-blue lighten-5">
-       <span class="white-text text-darken-4">This is a card panel with dark blue text</span>
-     </div>
 
 
 <!--footer-->
 
-     <footer class="page-footer light-blue lighten-5 black-text">
+     <footer class="page-footer brown lighten-4 white-text">
               <div class="container">
                 <div class="row">
                   <div class="col l6 s12">
@@ -81,16 +85,18 @@
                   <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">FAQs</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Bookings</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Contracts and Agreements</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Refund Policy</a></li>
+
                     </ul>
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col l12 s12">
+                  <div id="socialmedia" class="col l12 s12">
                     <ul>
                       <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
                       <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
@@ -104,11 +110,13 @@
               </div>
               <div class="footer-copyright">
                 <div class="container">
-                © 2019 Copyright Renee Kiffin
+                © 2019 Copyright Jane Doe
                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
                 </div>
               </div>
             </footer>
+
+
 
 
 
@@ -117,6 +125,13 @@
        <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
        <script src="js/init.js"></script>
+       <script src="js/slider.js"></script>
+
+       <!-- delay-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="../js/scrollfade.js"></script>
+
+
 
      </body>
   </html>

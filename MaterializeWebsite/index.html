@@ -14,7 +14,9 @@
 
     <body>
 
+<!--NAVIGATION-->
 
+      <div class="navbar-fixed">
       <nav>
          <div class="brown lighten-5 nav-wrapper">
            <a href="index.html" id="logo" class="black-text brand-logo"><img src="/img/logo.png" alt="Jane Doe Photogrphy Logo" height="60px"></a>
@@ -27,6 +29,7 @@
            </ul>
         </div>
       </nav>
+      </div>
 
  <ul class="black-text sidenav" id="mobile-demo">
    <li><a href="about.html">ABOUT</a></li>
@@ -37,14 +40,12 @@
 
 
 
-
-
+<!--CAROUSEL-->
 
  <div class="fullscreen carousel carousel-slider"> <!--does 'fullscreen' make a difference?-->
-    <a class="carousel-item" href="#one!"><img src="https://bit.ly/2t08U5z"></a>
     <a class="carousel-item" href="#two!"><img src="https://bit.ly/2SlhhHc"></a>
     <a class="carousel-item" href="#three!"><img src="https://bit.ly/2Ry1nVq"></a>
-    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+
 
 </div>
 
@@ -52,27 +53,34 @@
 <a class="waves-effect waves-dark btn-large center">BOOK NOW</a>
 </div>
 
+<!-- MEMORIES THAT WILL LAST A LIFETIME-->
+    <div class="row hideme">
+      <div class="col l3 s0 hide-on-med-and-down">
+          <div class="card-image large"><img width="300px"src="../img/element3.png"></div>
+      </div>
 
-    <div class="row" style ="text-align:center">
-      <div class="col l3 s0"></div>
-            <div class="col l6 s12">
-              <h1 class="brown-text">Memories <br>That Will Last a Lifetime</h1>
-            <p>Everyone wants to remeber their special moment forever. It's important to invest in your memories and book a reliable photogrpher to capture and create these magical and breath taking moments. <br> Here's a peak at a few newly weds and their most treasured moments.</p></div>
-      <div class="col l3 s0"></div>
+      <div class="col l6 s12">
+        <div class="card-content white-text center-align">
+        <h1 class="brown-text card-title">Memories <br>That Will Last a Lifetime</h1>
+      <p class="card-content black-text">Everyone wants to remeber their special moment forever. It's important to invest in your memories and book a reliable photogrpher to capture and create these magical and breath taking moments. <br> Here's a peak at a few newly weds' most treasured moments.</p></div>
+      </div>
+
+      <div class="col l3 hide-on-med-and-down "><div class="card-image large"><img height="300px"src="../img/element4.png"></div></div>
    </div>
 
 
-   <div class="row">
-    <div class="col s12 m6">
-      <div id="picturecard"class="card brown lighten-5">
-        <div class="card-content brown-text" style="height:300px;"></div>
+<!-- PICTURE -->
 
+   <div class="row hideme">
+    <div class="col s12 m6">
+      <div id="picturecard"class="card brown lighten-5 small">
+        <div class="card-content brown-text"></div>
       </div>
     </div>
 
 
-    <div class="col s12 m6" style="height:200px">
-      <div class="card white lighten-5" style="height:300px;" >
+    <div class="col s12 m6">
+      <div class="card white lighten-5 small" >
         <div class="card-content brown-text">
           <span class="card-title"><h1>#ForeverFuentes</h1></span>
           <p>Take a glimpse into the Fuentes' special moments. </p>
@@ -87,33 +95,60 @@
 
 
 
-   <div class="card-panel brown lighten-5">
-
-       <span class="white-text text-darken-4">
-
-     </span>
-     </div>
-
-
+<!-- CONTACT -->
 
      <div class="row">
-      <div class="col l6 s12">
-        <h1>Contact</h1>
-          <span class="card-content black-text"><p>Hello! Please be as detailed as possible if asking for a quote i.e. the number of guests, location and any other relevant details so that I will be able to get back to you sooner! </p>
-    </span></div>
+       <div class="col l1 s0"></div>
+          <div class="col l4 s12">
+            <h1>Contact</h1>
+              <span class="card-content black-text"><p>Hello! Send me a quick message if you have any questions or inquiries about my available packages!
 
-    <div class="col l6 s12 white">
-      <form name="contact" action="../php/mail.php" method="post">
-    Name: <input type="text" name="name"><br>
-    E-mail: <input type="email" name="email"><br>
-      Message: <input type="text" name="message"><br>
-    <input class="btn-large"type="submit" value="SUBMIT">
-    </form>
-
-
-     </div>
+                *Please be as detailed as possible if asking for a quote e.g. the number of guests, location and any other relevant details so that I will be able to get back to you sooner and with more accurate information! </p>
+        </span>
         </div>
 
+        <div class="col l1 s0"></div>
+
+        <div class="col l5 s12 white">
+          <form name="contact" action="../php/mail.php" method="post">
+        Name: <input type="text" name="name"><br>
+        E-mail: <input type="email" name="email"><br>
+          Message: <input type="text" name="message"><br>
+        <input class="btn-large"type="submit" value="SUBMIT">
+        </form>
+         </div>
+
+         <div class="col l1 s0"></div>
+        </div>
+
+<!--ABOUT ME-->
+        <div class="row">
+          <div class="col l1 s0"></div>
+          <div class="col l4 s12">
+          <div class="card">
+            <div class="card-image">
+            <img src="https://bit.ly/2WPYqDA">
+            </div>
+          </div>
+        </div>
+
+        <div class="col l1 s0">
+        </div>
+
+        <div class="col l4 s13">
+        <div class="card large brown white-text lighten-2" >
+          <div class="card-content">
+            <span class="card-title"><h1>About Me</h1></span>
+            <p> Hi, I'm Jane! I grew up in a little town called Cantelope. I went to Fairytale Univeristy and graduated with my B.A. in Fine Arts. I got a gig as a wedding photographer after graduating and fell in love capturing people's special moments at weddings. Since then I have been working as a professional wedding photographer for 5 years. </p>
+          </div>
+        </div>
+        </div>
+        <div class="col l1 hide-on-med-and-down">
+          <div class="card-image large"><img height="700px"src="../img/element2.png"></div>
+
+        </div>
+
+           </div>
 
 
 
@@ -163,12 +198,20 @@
 
 
 
+
+
             <!--Import jQuery before materialize.js-->
        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
        <script src="js/init.js"></script>
        <script src="js/slider.js"></script>
+
+       <!-- delay-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="../js/scrollfade.js"></script>
+
+
 
      </body>
   </html>

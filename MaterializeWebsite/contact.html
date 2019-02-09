@@ -14,23 +14,27 @@
 
     <body>
 
+<!--NAVIGATION-->
 
+      <div class="navbar-fixed">
       <nav>
-   <div class="brown lighten-5 nav-wrapper">
-     <a href="index.html" id="logo" class="black-text brand-logo"><img src="/img/logo.png" alt="Jane Doe Photogrphy Logo" height="60px"></a>
-     <a href="#" data-target="mobile-demo" class="black-text sidenav-trigger"><i class="material-icons">menu</i></a>
-     <ul class="black-text right hide-on-med-and-down">
-       <li><a href="about.html">ABOUT</a></li>
-       <li><a href="gallery.html">GALLERY</a></li>
+         <div class="brown lighten-5 nav-wrapper">
+           <a href="index.html" id="logo" class="black-text brand-logo"><img src="/img/logo.png" alt="Jane Doe Photogrphy Logo" height="60px"></a>
+           <a href="#" data-target="mobile-demo" class="black-text sidenav-trigger"><i class="material-icons">menu</i></a>
+           <ul class="black-text right hide-on-med-and-down">
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="gallery.html">GALLERY</a></li>
+             <li><a href="contact.html">CONTACT</a></li>
 
-     </ul>
-  </div>
+           </ul>
+        </div>
       </nav>
+      </div>
 
  <ul class="black-text sidenav" id="mobile-demo">
    <li><a href="about.html">ABOUT</a></li>
    <li><a href="gallery.html">GALLERY</a></li>
-
+   <li><a href="contact.html">CONTACT</a></li>
  </ul>
 
 
@@ -38,52 +42,32 @@
 
 
 
+<!-- CONTACT -->
 
+     <div class="row">
+       <div class="col l1 s0"></div>
+          <div class="col l4 s12">
+            <h1>Contact</h1>
+              <span class="card-content black-text"><p>Hello! Send me a quick message if you have any questions or inquiries about my available packages!
 
-
-
-
-     <a class="black center waves-effect waves-light btn">BOOK NOW</a>
-
-
-  <div class="row">
-<div class="col l12 s12">Jane Doe</div>
-
-</div>
-
-
-
-    <div class="row">
-     <div class="col l6 s12">Memories</div>
-      <div class="col l6 s12">Everyone wants to remeber their special moment forever. Blabla, this is why you should invest into a ...</div>
-   </div>
-
-
-   <div class="row">
-    <div class="col s12 m6">
-      <div class="card brown lighten-5">
-        <div class="card-content brown-text">
-          <span class="card-title">#PunnyWeddingTag</span>
-          <p>Take a glimpse into the LastName's special moment. </p>
+                *Please be as detailed as possible if asking for a quote e.g. the number of guests, location and any other relevant details so that I will be able to get back to you sooner and with more accurate information! </p>
+        </span>
         </div>
-        <div class="white card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
+
+        <div class="col l1 s0"></div>
+
+        <div class="col l5 s12 white">
+          <form name="contact" action="../php/mail.php" method="post">
+        Name: <input type="text" name="name"><br>
+        E-mail: <input type="email" name="email"><br>
+          Message: <input type="text" name="message"><br>
+        <input class="btn-large"type="submit" value="SUBMIT">
+        </form>
+         </div>
+
+         <div class="col l1 s0"></div>
         </div>
-      </div>
-    </div>
-  </div>
 
-
-
-  <div class="row">
-   <div class="col l6 s12"><h1>Contact<h1>
-   <p>Hello! Please feel free to ask me any quesions about pricing for your special events. Please be as detailed as possible i.e. the number of guests, ;ocation so that I will be able to assit you </p></div>
-   <div class="col l6 s12 card-panel light-blue lighten-5">
-  <span class="white-text text-darken-4">This is a card panel with dark blue text</span>
-
-  </div>
-     </div>
 
 
 <!--footer-->
@@ -101,13 +85,15 @@
                       <li><a class="grey-text text-lighten-3" href="#!">FAQs</a></li>
                       <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
                       <li><a class="grey-text text-lighten-3" href="#!">Bookings</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Contracts and Agreements</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Refund Policy</a></li>
 
                     </ul>
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col l12 s12">
+                  <div id="socialmedia" class="col l12 s12">
                     <ul>
                       <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
                       <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
@@ -129,12 +115,20 @@
 
 
 
+
+
             <!--Import jQuery before materialize.js-->
        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
        <script src="js/init.js"></script>
        <script src="js/slider.js"></script>
+
+       <!-- delay-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="../js/scrollfade.js"></script>
+
+
 
      </body>
   </html>
