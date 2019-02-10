@@ -27,7 +27,7 @@ nav ul li a {
 nav ul li a:hover{
   color:white;
 }
-#booknow{
+#booknow,#albumsandevents{
     margin-top:25px;
     margin-bottom:25px;
 }
@@ -72,4 +72,31 @@ nav{
 .space{
   margin-bottom: 50px;
   margin-top: 50px;
+}
+
+#memories{
+  height:75vh !important;
+}
+#gallery{
+  height:50vh !important;
+}
+#about{
+  height:100vh !important;
+}
+
+#grid img{
+  width: 250px;
+  opacity: 0.5;
+  
+
+}
+#map{
+  background-blend-mode: luminosity;
+  opacity: 0.6;
+
+}
+
+#map:hover{
+  opacity: 1;
+
 }
