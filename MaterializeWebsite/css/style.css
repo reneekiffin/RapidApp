@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Trajan';
-    src: url('../src/goudytrajan-regular-trial-webfont.otf') format('otf');
+    src: url('../src/goudytrajan-regular-trial-webfont.otf') format("opentype");
 
     font-weight: normal;
     font-style: normal;
@@ -31,7 +31,7 @@ nav ul li a:hover{
     margin-top:25px;
     margin-bottom:25px;
 }
-.btn-large{
+.btn-large, .btn-small{
   color: #8d6e63  !important;
   background-color:#efebe9 !important;
   border-color: #d7ccc8 !important;
@@ -77,7 +77,7 @@ nav{
 #memories, #mailphp{
   height:75vh !important;
 }
-#gallery{
+#gallery, #testimonials{
   height:50vh !important;
 }
 #about{
@@ -98,5 +98,16 @@ nav{
 
 #map:hover{
   opacity: 1;
+
+}
+
+.card a{
+  color: #8d6e63  !important;
+
+}
+
+.card a:hover{
+  color: #d7ccc8 !important;
+
 
 }

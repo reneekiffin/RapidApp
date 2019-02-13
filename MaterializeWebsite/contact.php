@@ -83,6 +83,13 @@
 
 
 
+
+
+
+
+
+
+
             <!--footer-->
          <?php include 'footer.php'; ?>
 
@@ -100,6 +107,34 @@
                <!-- delay-->
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                <script src="js/scrollfade.js"></script>
+
+
+               <div class="row section">
+                 <div class="col l1 s0">
+
+                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                   <script>
+                   $(document).ready(function(){
+                     $("#hide").click(function(){
+                       $("p").hide();
+                     });
+                     $("#show").click(function(){
+                       $("p").show();
+                     });
+                   });
+                   </script>
+                   </head>
+                   <body>
+
+                   <p>If you click on the "Hide" button, I will disappear.</p>
+
+                   <button id="hide">Hide</button>
+                   <button id="show">Show</button>
+
+
+            </div>
+          </div>
+
 
 
 

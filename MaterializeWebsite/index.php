@@ -67,7 +67,7 @@
 
       <div class="col l6 s12">
         <div class="card-content white-text center-align">
-        <h1 class="hideme brown-text card-title">Memories <br>That Will Last a Lifetime</h1>
+        <h1 class="card-title hideme brown-text ">Memories <br>That Will Last a Lifetime</h1>
       <p class="hideme card-content black-text">Everyone wants to remember their special moment forever. It's important to invest in your memories and book a reliable photogrpher to capture and create these magical and breath taking moments. <br> Here's a peak at a few newly weds' most treasured moments.</p></div>
       </div>
 
@@ -100,6 +100,27 @@
   </div>
 
 
+  <div id="testimonials" class="row valign-wrapper">
+   <div class="col s12 m12 center">
+     <div class="card-title brown-text">
+  <h1 class="hideme">Testimonials</h1>
+  </div>
+  <div class="card-content black-text">
+  <div id="reviews"><img style="width:20px"src="img/star.svg"><img style="width:20px"src="img/star.svg"><img style="width:20px"src="img/star.svg"><img style="width:20px"src="img/star.svg"><img style="width:20px"src="img/star.svg">
+<br>
+
+  "Jane captured the magic in every moment at our wedding. The photos were beyond perfect. Thank you Jane."
+<br> - Maria F.</div>
+</div>
+
+
+  <button id="show" class="waves-effect waves-dark btn-small center">Read</button>
+  <button id="hide" class="waves-effect waves-dark btn-small center"> x </button>
+
+
+</div>
+</div>
+
 
 
    <!--footer-->
@@ -118,6 +139,10 @@
          <!-- delay-->
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
          <script src="js/scrollfade.js"></script>
+
+         <!--hide show buttons-->
+         <script src="js/hideshow.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 
